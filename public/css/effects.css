@@ -1,4 +1,10 @@
-h5 {
+.modal-footer-left {
+	position: fixed;
+	padding: 0px;
+}
+
+
+.h5 {
 	vertical-align: center;
 }
 
