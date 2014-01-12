@@ -44,12 +44,15 @@
         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-cog"></span><b class="caret"></b></a>
 
         <ul class="dropdown-menu">
+          <!-- Profile -->
           <img class="avatar size32" src="https://pbs.twimg.com/profile_images/378800000386678197/7173ee134bd054af8919d73be55226d2_normal.jpeg" alt="" data-user-id="37346709">
           <b class="fullname">Georgio</b>
           <span class="screen-name hidden" dir="ltr">@ggeorgiev</span>
           <li><a href="#"><class="metadata">
           Edit profile
           </li>
+          <!-- /Profile -->
+
           <li class="divider"></li>
           <li><a href="#">Lists</a></li>
           <li class="divider"></li>
@@ -59,7 +62,29 @@
           <li><a href="#">Settings</a></li>
           <li><a href="#">Sign Out</a></li>
         </ul>
-        <li><a href="#"><span class="glyphicon glyphicon-heart"></span></a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-edit" data-toggle="modal" data-target="#myModal"></span></a></li>
+
+<!-- Tweet Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <center><h5 class="modal-title" id="myModalLabel">Compose New Tweet</h5></center>
+      </div>
+      <div class="modal-body">
+        <textarea class="form-control" rows="3" placeholder="@"></textarea>  
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Tweet</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+
       </li>
     </ul>
   </div><!-- /.navbar-collapse -->
