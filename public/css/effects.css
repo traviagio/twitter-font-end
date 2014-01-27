@@ -1,4 +1,16 @@
-.twitter-timeline
+.form-group {
+border-radius: 22px;
+}
+
+
+.twitter-timeline {
+	position: fixed;
+	padding: 0px;
+	right: 10;
+	opacity: 7;
+	display: inline-block;
+
+}
 
 
 .btn-file {
