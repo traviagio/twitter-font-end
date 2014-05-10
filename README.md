@@ -13,8 +13,5 @@ Reimplementing Twitter's feed page only using CSS, HTML and JS. No back-end code
 
 The task was led by [@Alex Peattie](http://www.github.com/alexpeattie)
 
-#### Goals
-Use Javascript for infinite scrolling
-Optimize for responsiveness 
 
 #### To do
